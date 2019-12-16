@@ -1,0 +1,11 @@
+
+$theme-colors: (
+	"primary": #1a73e8,
+	"secondary": #283043,
+	"airblue": #78a1bb,
+	"offwhite": #ebf5ee,
+	"success": rgb(56, 148, 106)
+);
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
