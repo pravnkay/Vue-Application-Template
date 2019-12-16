@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+		<h1>In Detail App 5</h1>
 		<div>
 			<b-button>Button</b-button>
 			<b-button variant="danger">Button</b-button>
@@ -20,6 +21,6 @@
 export default {
   name: 'home',
   components: {
-  }
+	},
 }
 </script>
