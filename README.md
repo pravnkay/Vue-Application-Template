@@ -1,24 +1,17 @@
-# indetail
+# Vue-Fire Admin Template
 
-## Project setup
-```
-npm install
-```
+### Features
+- Vue Cli 4
+- Firebase Auth - Email and Password
+- A Simple Admin backend template
+- Login & Register User Pages
+- Auth Controlled Page access
+- App Landing Page
+- InjectManifest PWA Support with
+ - 100 PWA score in Lighthouse
+ - Auto new content download
+ - On new content refresh popup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##### Further Details will be updated soon
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+If in case someone needs to use this template, I can help
