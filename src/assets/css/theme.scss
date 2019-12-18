@@ -7,5 +7,47 @@ $theme-colors: (
 	"success": rgb(56, 148, 106)
 );
 
+.overflow-y-auto{
+	overflow-y: auto;
+}
+
+.top-0{
+	top:0;
+}
+.bottom-0{
+	bottom:0;
+}
+.left-0{
+	left:0;
+}
+.right-0{
+	right:0;
+}
+
+.z-10 {
+	z-index: 10 !important;
+}
+.z-20 {
+	z-index: 20 !important;
+}
+.z-30 {
+	z-index: 30 !important;
+}
+.z-40 {
+	z-index: 40 !important;
+}
+.z-50 {
+	z-index: 50 !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+
+:root {
+	--topbar-height : 72px;
+	--sidebar-width : 200px;
+	--brand-height : 108px;
+}
+
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';

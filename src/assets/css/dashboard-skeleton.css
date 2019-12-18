@@ -1,0 +1,357 @@
+  /*******************************/
+ /********** Body Syles *********/
+/*******************************/
+
+body{
+	margin: 0;
+	color : rgba(0, 0, 0, 0.75);
+}
+
+  /******************************************/
+ /********** General Looks Classes *********/
+/******************************************/
+
+.box-shadow, .box-shadow .box, .box-shadow .box-color {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.03);
+}
+.box-shadow-top {
+	box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+  /********************************/
+ /********** Scroll Bars *********/
+/********************************/
+
+body::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: var(--secondary);
+}
+
+.sidebar-scroll::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+}
+
+.sidebar-scroll::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: var(--secondary);
+}
+
+.scroll-locked{
+	overflow: hidden;
+}
+
+  /****************************/
+ /********** Top-Bar *********/
+/****************************/
+
+.top-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	min-height: var(--topbar-height);
+	background-color: var(--color-white);
+	color: var(--dark);
+}
+
+.top-bar #sidebar_trigger:hover{
+	cursor: pointer;
+}
+
+.top-bar a {
+    color: inherit;
+}
+.nav-link {
+	position: relative;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.top-bar .nav-link span.badge-corner {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+.top-bar .badge {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.top-bar .dropdown-menu {
+    right: 0;
+    min-width: 250px;
+    left: auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 15px 0;
+    max-width: 400px;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -2px 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar .dropdown-menu .dropdown-item {
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: #777;
+    width: 100%;
+}
+
+.top-bar .dropdown-menu .dropdown-item i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #796AEE;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.top-bar .dropdown-menu .dropdown-item small {
+    margin-left: 40px;
+}
+
+.top-bar .dropdown-menu strong {
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.top-bar .dropdown-menu .msg-profile {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.top-bar .dropdown-menu span {
+    position: static;
+    font-size: 0.9em;
+    color: #999;
+}
+
+  /*****************************/
+ /********** Side-Bar *********/
+/*****************************/
+
+.sidebar{
+	width: var(--sidebar-width);
+	max-height: 100vh;
+	left: calc(0px - var(--sidebar-width));
+}
+
+.is-open{
+	left: 0;
+}
+
+.sidebar-brand{
+	height: var(--topbar-height);
+}
+
+.sidebar-scroll{
+	-webkit-overflow-scrolling: touch;
+}
+
+.user-avatar{
+	width: 70px;
+}
+
+.sidebar i.overlay-close{
+	font-size: 25px;
+	position: absolute;
+	left: -25px;
+	top: 10px;
+	color: red;
+	opacity: 1;
+}
+
+.sidebar.is-open i.overlay-close{
+    left: 210px;
+}
+
+.sidebar, .is-open, .visible, .sidebar-overlay{
+	-webkit-transition: all 350ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-moz-transition: all 350ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	-o-transition: all 350ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+	transition: all 350ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
+}
+
+.sidebar-overlay{
+	width: 0;
+	opacity: 0.5;
+}
+
+.visible {
+	width: calc(100vw - var(--sidebar-width));
+	/* opacity: 0.5; */
+}
+
+  /***************************************/
+ /********** Sidebar Navigation *********/
+/***************************************/
+
+.sidebar-menu span.menu-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 20px;
+    color: var(--gray);
+    font-size: 0.8em;
+}
+
+.sidebar-menu ul li a {
+		color: var(--dark);
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    border-left: 4px solid transparent;
+}
+
+.sidebar-menu ul li.router-link-exact-active > a, .sidebar-menu ul li.router-link-active > a {
+    background: var(--offwhite);
+    color: var(--dark);
+    border-left: 4px solid var(--secondary);
+}
+
+.sidebar-menu a {
+    position: relative;
+    font-size: 0.9em;
+}
+
+.sidebar-menu a:hover {
+    background: var(--offwhite);
+}
+
+/* Dropdown */
+
+.sidebar-menu a[aria-expanded="true"] {
+    background: var(--color-p-light);
+}
+
+.sidebar-menu ul li ul {
+    padding: 0;
+}
+
+.sidebar-menu ul li li a {
+    padding-left: 50px;
+    background: var(--color-white);
+}
+
+.sidebar-menu a i {
+    font-size: 1.2em;
+    margin-right: 10px;
+    -webkit-transition: none;
+    transition: none;
+}
+#dropdown-list {
+	position: relative;
+	max-height: 0;
+	transition: max-height 0.5s ease;
+	overflow: hidden;
+}
+
+#dropdown-list.open {
+	max-height: 180px;
+	transition: max-height 0.5s ease;
+}
+
+
+  /***************************************/
+ /********** Page Inner Content *********/
+/***************************************/
+
+.page-content{
+	padding-top: 75px;
+	max-width: 100vw;
+	background: var(--color-cream);
+}
+
+  /************************************/
+ /********** Sidebar Content *********/
+/************************************/
+
+.sidebar-brand {
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-footer {
+	height: 75px;
+}
+
+.username{
+	width: 100px;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+  /***************************************/
+ /********** Inner Content Grid *********/
+/***************************************/
+
+.content-section {
+	margin: 15px 0 40px 0;
+}
+
+  /********************************/
+ /********** Main Footer *********/
+/********************************/
+
+/* footer.main-footer {
+    background: var(--color-p);
+    color: var(--color-white);
+	padding: 20px 10px;
+	min-height: 87px;
+}
+
+/* alignging footer to bottom */
+
+.page-content {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.inner-content {
+	flex-grow: 1;
+}
+
+.main-footer {
+	align-self: flex-end;
+	width: 100%;
+}

@@ -1,0 +1,127 @@
+<template>
+	<section class="page-content">
+		<div class="inner-content container-fluid">
+			<div class="row content-section">
+				<div class="col-12">
+						<h1>To Show only inside content scrolls</h1> <br /> <br/>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+						<h1>Content</h1>
+				</div>
+			</div>
+		</div>
+	</section> 
+</template>
+
+<script>
+export default {
+	name: 'dashboard',
+	components: {
+		
+	}
+}
+</script>
